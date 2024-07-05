@@ -1,0 +1,18 @@
+public class sumsquarediff{
+    public static void main(String[] args) {
+        int n = 100;
+        int sum = 0;
+        int sum1 = 0;
+
+        for (int i= 1 ; i<=n; i++){
+            sum = sum + (int)(Math.pow(i,2)) ;
+        }
+        System.out.println(sum);
+        for (int j = 1; j<=n ; j++){
+            sum1=  sum1 + j;
+        }
+        int finalSum = sum1 * sum1;
+        System.out.println(finalSum);
+        System.out.println(finalSum-sum);
+    }
+}
